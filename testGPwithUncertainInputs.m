@@ -32,5 +32,12 @@ mi_x = mi_x';
 sigma_x = sqrt(diag(k_x-Ks_x'*(K_x\Ks_x)));
 sigma_x = sigma_x';
 
+Sigma_x = cov(GPData.X, 1);
+
+sigma = sigma_x + 
+
+
+
+
 end
 
