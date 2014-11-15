@@ -34,6 +34,7 @@ sigma_x = sigma_x';
 
 Sigma_x = cov(GPData.X, 1);
 
+%TODO implementiraj
 sigma = sigma_x + 
 
 

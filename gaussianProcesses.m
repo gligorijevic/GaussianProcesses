@@ -43,6 +43,7 @@ GPData.Y = rand(200,1);
 GPData.maxiter = 20;
 GPData.parameters = [1 1 ones(1, size(GPData.X, 2))];
 
+%Training of Gaussian Processes Regression with Gaussian kernel
 u = trainGP(GPData, false)
 
 [mu, sigma] = testGP(GPData)
