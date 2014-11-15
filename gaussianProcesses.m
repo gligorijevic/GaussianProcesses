@@ -46,6 +46,7 @@ GPData.parameters = [1 1 ones(1, size(GPData.X, 2))];
 %Training of Gaussian Processes Regression with Gaussian kernel
 u = trainGP(GPData, false)
 
+%Predicting with Gaussian Processes
 [mu, sigma] = testGP(GPData)
 
 
